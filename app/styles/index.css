@@ -1,0 +1,36 @@
+@import 'variables.css';
+@import 'components';
+
+:root {
+	font-size: 18px;
+}
+
+.page-width {
+	width: 100%;
+	max-width: var(--max-page-width);
+	margin: 0 auto;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	line-height: 1.5;
+	overflow-x: hidden;
+	margin: 0;
+	transition: background-color .3s cubic-bezier(0, 0, 0.2, 1);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+
+main {
+	position: relative;
+	margin-top: var(--header-height);
+	padding: var(--sides-padding);
+	min-height: calc(100vh - var(--header-height));
+}

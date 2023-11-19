@@ -1,0 +1,19 @@
+.cart-sidebar {
+	position: absolute;
+	height: 100%;
+	padding: 1rem;
+	background-color: var(--secondary-background-color);
+	box-shadow: var(--box-shadow);
+	top: 0;
+	min-width: 15rem;
+}
+
+.cart-sidebar__link {
+	height: 3rem;
+	width: 3rem;
+	justify-self: end;
+	& img {
+		width: inherit;
+		height: inherit;
+	}
+}

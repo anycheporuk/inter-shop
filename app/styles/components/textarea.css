@@ -1,0 +1,20 @@
+textarea {
+	font-size: inherit;
+	position: relative;
+	margin-bottom: 1em;
+	padding: .5em;
+	color: var(--text-color);
+	border: .1rem solid var(--gray-color);
+	border-radius: var(--border-radius);
+	background-color: var(--white-color);
+}
+
+textarea:hover, textarea:active, textarea:focus {
+	border-color: var(--primary-color);
+}
+
+
+label {
+	position: relative;
+	cursor: text;
+}

@@ -1,0 +1,67 @@
+.product-container {
+	display: grid;
+	gap: 1rem;
+	grid-template-areas: 
+		"images buy"
+		"images ."
+		"description .";
+
+}
+
+.image-container{
+	grid-area: images;
+	padding: var(--sides-padding);
+	background-color: var(--secondary-background-color);
+	border-radius: var(--border-radius);
+	
+	& img {
+		max-width: 80%;
+		max-height: 70vh;
+		width: 100%;
+		object-fit: contain;
+	}
+}
+
+.buy-container {
+	padding: var(--sides-padding);
+	background-color: var(--secondary-background-color);
+	border-radius: var(--border-radius);
+	grid-area: buy;
+	
+	& > * {
+		margin-bottom: 1rem;
+	}
+	
+	& .available {
+		color: var(--green-color)
+	}
+	
+	
+	& .not-available {
+		color: var(--gray-color)
+	}
+	
+	& .price {
+		font-weight: bold;
+	}
+
+	& .price::after {
+		content: '₴'
+	}
+}
+
+.description-container{
+	padding: var(--sides-padding);
+	background-color: var(--secondary-background-color);
+	border-radius: var(--border-radius);
+	grid-area: description;
+}
+
+@media (width < 780px) {
+	.product-container{
+		grid-template-areas: 
+		"images"
+		"buy"
+		"description";
+	}
+}

@@ -1,0 +1,21 @@
+:root {
+	--white-color: hsl(230, 100%, 99%);
+	--black-color: hsl(0, 0%, 14%);
+	--gray-color: #B6B6B6;
+	--error-color: #FF4D4F;
+	--border-radius: 0.4rem;
+	--overlay-color: #22222280;
+	--box-shadow: 0px 2px 10px rgba(3, 82, 86, 0.5);
+	--header-height: 4rem;
+	--vh: 100vh;
+	--sides-padding: 1rem;
+	--transition: all 0.3s cubic-bezier(0, 0, 0.2, 1), color 0s;
+	--max-page-width: 90rem;
+	--text-color: var(--black-color);
+	--background-color: silver;
+	--secondary-background-color: var(--white-color);
+	--primary-color-rgb: 0, 33, 195;
+	--primary-color: #0021C3;
+	--dynamic-gray-color: #696969;
+	--green-color: #188711;
+}

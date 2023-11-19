@@ -1,0 +1,21 @@
+input:not(.radio__input, .check__input) {
+	font-size: inherit;
+	position: relative;
+	height: 2em;
+	margin-bottom: 1em;
+	padding: .5em;
+	color: var(--text-color);
+	border: .1rem solid var(--gray-color);
+	border-radius: var(--border-radius);
+	background-color: var(--white-color);
+}
+
+input:hover, input:active, input:focus {
+	border-color: var(--primary-color);
+}
+
+
+label {
+	position: relative;
+	cursor: text;
+}

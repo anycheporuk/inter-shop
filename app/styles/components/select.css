@@ -1,0 +1,16 @@
+select {
+	font-size: inherit;
+	position: relative;
+	height: 2em;
+	margin-bottom: 1em;
+	padding: 0 1.8em 0 .5em;
+	cursor: pointer;
+	color: var(--text-color);
+	border: .1rem solid var(--gray-color);
+	border-radius: var(--border-radius);
+	background-color: var(--white-color);
+}
+
+select:hover, select:active, select:focus {
+	border-color: var(--primary-color);
+}

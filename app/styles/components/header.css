@@ -1,0 +1,16 @@
+header {
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	width: 100%;
+	height: var(--header-height);
+	padding: 0 var(--sides-padding);
+	background: var(--secondary-background-color);
+	box-shadow: var(--box-shadow); 
+	& .page-width {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		height: var(--header-height);
+	}
+}
